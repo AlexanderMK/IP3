@@ -1,0 +1,46 @@
+div.container {
+  width: 100%;
+  border: 1px solid tag;
+  background-color: #c6bcb4;
+}
+header, footer {
+    padding: 2em;
+    color: white;
+    background-color: #dbc48a;
+    clear: left;
+    text-align: center;
+    letter-spacing: 2px;
+}
+header {
+    font-size: 30px;
+}
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 20px;
+    padding: 1em;
+    background-color:;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul a {
+        text-decoration: none;
+}
+p.thick {
+  font weight: bold;
+}
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+    background-color: #dbd8d6;
+}
+a:hover {
+    color: red;
+}
+.list-unstyled {
+  margin: 20px;
+}

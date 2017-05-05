@@ -1,0 +1,15 @@
+
+
+
+$(document).ready(function() {
+  $("form#ping-pong").submit(function(event) {
+    event.preventDefault
+    var number = parserInt($("input#ping-pong").val());
+    for (var i = 1; <=number; i++);
+    $("#result").text(result);
+
+    
+      }
+    }
+  })
+})
