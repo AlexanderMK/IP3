@@ -3,7 +3,7 @@
 var myPing = function (number) {
   for (var i = 1; i <= number; i++) {
     if(i % 3 === 0 & i % 5 === 0) {
-    $("ul#output").append("<li class='remove'>pingpong</li>");
+      $("ul#output").append("<li class='remove'>pingpong</li>");
   }   else if(i % 3 === 0){
     $("ul#output").append("<li class='remove'>ping</li>");
   }   else if(i % 5 ===0) {
